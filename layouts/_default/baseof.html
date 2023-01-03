@@ -1,10 +1,14 @@
 {{ partial "head.html" . }}
   <body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
-  {{ partial "sidebar.html" . }}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMQKCGP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+   <!-- End Google Tag Manager (noscript) -->
+{{ partial "sidebar.html" . }}
     <main class="content container">
     {{ block "main" . -}}{{- end }}
     </main>
 
-    {{ template "_internal/google_analytics_async.html" . }}
+{{ template "_internal/google_analytics_async.html" . }}
   </body>
 </html>
