@@ -91,6 +91,13 @@ html {
   color: rgb(255, 213, 0);
 }
 
+.sidebar-about h1 .nv {
+  color: rgb(1, 33, 105);
+}
+
+.sidebar-about h1 .rd {
+  color: rgb(200, 16, 46);
+}
 /* Sidebar nav */
 .sidebar-nav {
   padding-left: 0;
