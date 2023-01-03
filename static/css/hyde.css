@@ -83,6 +83,14 @@ html {
   font-size: 3.25rem;
 }
 
+.sidebar-about h1 .bl {
+  color: rgb(0, 87, 184);
+}
+
+.sidebar-about h1 .yl {
+  color: rgb(255, 213, 0);
+}
+
 /* Sidebar nav */
 .sidebar-nav {
   padding-left: 0;
